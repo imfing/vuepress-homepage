@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Peter Parker",
+  title: "Harry Potter",
   description: "The description of the site.",
   head: [["link", { rel: "icon", href: `/logo.png` }]],
   base: "/",
@@ -8,6 +8,7 @@ module.exports = {
 
   themeConfig: {
     nav: [
+      { text: "Home", link: "/" },
       { text: "GitHub", link: "https://github.com/mtobeiyf/vuepress-homepage" }
     ]
   }

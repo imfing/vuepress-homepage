@@ -114,12 +114,14 @@ body
       .description
         text-align justify
         p
-          padding-top 0.8em
+          padding 0.8em 0.5em 0
           line-height normal
           -webkit-margin-before 0em
           -webkit-margin-after 0em
+          a
+            font-weight normal
     .interests
-      padding 1em
+      padding 1em 1.5em
       border-top 1px solid rgba(34,36,38,.1)
     .socials
       border-top 1px solid rgba(34,36,38,.1)

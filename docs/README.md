@@ -1,1 +1,28 @@
-# Test
+---
+layout: Homepage
+sidebar: false
+description: 'The biography and information about me.'
+avatar: /profile.jpg
+head: 'Harry Potter'
+info: 'Student at Hogwarts School'
+interests: 'Interests: Quidditch and Wizard chess.'
+socials:
+- title: github
+  link: https://github.com/mtobeiyf
+- title: linkedin
+  link: https://www.linkedin.com
+- title: instagram
+  link: https://www.instagram.com
+- title: email
+  link: 'mailto:harry[at]gmail.com'
+actions:
+- text: Projects
+  link: /projects/
+- text: Blog
+  link: https://github.com/mtobeiyf
+- text: CV
+  link: /resume/
+footer: Made with ♥ by Fing. Powered by VuePress
+---
+
+:dizzy: I attended [Hogwarts School of Witchcraft and Wizardry](https://en.wikipedia.org/wiki/Hogwarts) to study witchcraft, supervised by **Dumbledore** and other professors. I'm trying my best to battle with Lord Voldemort, the evil Wizard that we all fear. My research area includes Defence Against the Dark Arts and other magic.
