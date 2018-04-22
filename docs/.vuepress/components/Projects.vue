@@ -1,0 +1,94 @@
+<template>
+  <div class="projects">
+    <div class="wrapper">
+      <Content/>
+      <div class="project" v-for="project in data.projects">
+        <div v-if="project.image" class="project-image">
+          <img :src="$withBase(project.image)" alt="">
+        </div>
+        <div class="project-content">
+          <div v-for="row in project.rows" >
+            <m-content :content="row.content"></m-content>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+import MContent from "./MContent.vue";
+
+export default {
+  components: {
+    MContent
+  },
+  computed: {
+    data() {
+      return this.$page.frontmatter;
+    }
+  }
+};
+</script>
+
+<style lang="stylus">
+@import './styles/config.styl'
+
+.projects
+  max-width 100%
+  // background-color $bgColor
+  min-height calc(100vh - 3.6rem)
+  .wrapper
+    padding 2em 2em
+    display flex
+    flex-direction column
+    align-items center
+    .content
+      max-width 740px
+      margin-left auto 
+      margin-right auto
+      width 100%
+    .project
+      // background-color $frontColor      
+      border 1px solid #eee
+      border-radius 0.5rem
+      // box-shadow 0 1px 4px 0 rgba(0,0,0,0.2);
+      padding 0.5rem
+      margin-top 1em
+      max-width 740px
+      width 100%
+      min-height 150px
+      margin-left auto 
+      margin-right auto
+      display flex
+      flex-direction row
+      align-items: stretch
+      // justify-content: center
+      .project-image
+        display flex
+        align-items center
+        padding 0.5rem
+        max-width 200px
+        img 
+          max-width 150px
+          max-height 150px
+          border: 1px solid #eee;
+          border-radius 0.2rem
+      .project-content
+        padding 0.5rem
+        p
+          line-height 1.5
+          -webkit-margin-before 0em;
+          -webkit-margin-after: 0.5em;
+
+@media (max-width: $MQMobileNarrow)
+  .projects
+    .wrapper
+      padding 1rem 1rem
+      .project
+        display flex
+        flex-direction column
+        align-items center
+
+
+</style>
