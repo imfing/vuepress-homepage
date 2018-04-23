@@ -66,7 +66,7 @@ export default {
 body
   .home
     max-width 100%
-    background-color $bgColor
+    background-color $homeBgColor
     min-height calc(100vh - 6rem)
     display flex
     padding 2.4rem 2rem 0

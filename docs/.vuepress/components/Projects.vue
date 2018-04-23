@@ -36,23 +36,24 @@ export default {
 
 .projects
   max-width 100%
-  // background-color $bgColor
+  background-color $projBgColor
   min-height calc(100vh - 3.6rem)
   .wrapper
     padding 2em 2em
     display flex
     flex-direction column
     align-items center
+    box-sizing border-box
     .content
       max-width 740px
       margin-left auto 
       margin-right auto
       width 100%
     .project
-      // background-color $frontColor      
+      background-color $frontColor   
       border 1px solid #eee
       border-radius 0.5rem
-      // box-shadow 0 1px 4px 0 rgba(0,0,0,0.2);
+      box-shadow 0 5px 15px -5px rgba(0,0,0,.1)
       padding 0.5rem
       margin-top 1em
       max-width 740px
@@ -68,18 +69,22 @@ export default {
         display flex
         align-items center
         padding 0.5rem
-        max-width 200px
         img 
           max-width 150px
           max-height 150px
+          height 150px
           border: 1px solid #eee;
           border-radius 0.2rem
+          object-fit cover
       .project-content
         padding 0.5rem
+        flex-grow 1
         p
           line-height 1.5
-          -webkit-margin-before 0em;
-          -webkit-margin-after: 0.5em;
+          -webkit-margin-before 0em
+          -webkit-margin-after 0.5em
+        blockquote 
+          font-size 1rem
 
 @media (max-width: $MQMobileNarrow)
   .projects
@@ -88,7 +93,14 @@ export default {
       .project
         display flex
         flex-direction column
-        align-items center
-
+        padding 0.5rem
+        width 100%
+        box-sizing border-box
+        .project-image
+          flex-grow 1
+          align-items: stretch
+          img 
+            width 100%
+            max-width 400px
 
 </style>
