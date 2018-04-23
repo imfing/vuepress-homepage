@@ -34,6 +34,8 @@ The entry page is `README.md`, followed by sub-pages under the directories `guid
 
 You can modify, delete and create your own directory and `README.md` files according to your needs.
 
+You should have basic idea of [Markdown](https://guides.github.com/features/mastering-markdown/) and YAML Front Matter.
+
 ### config.js
 
 The config files of this site are all placed under `.vuepress` directory. The only two you need to concern is `config.js` and `public` folder.

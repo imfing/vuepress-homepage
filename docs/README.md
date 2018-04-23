@@ -21,7 +21,7 @@ actions:
 - text: Blog
   link: https://github.com/mtobeiyf
 - text: CV
-  link: /resume/
+  link: /article/
 footer: Made with ♥ by Fing. Powered by VuePress
 ---
 
