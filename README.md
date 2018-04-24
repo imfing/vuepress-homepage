@@ -16,7 +16,7 @@
 </p>
 
 <h2>
-  <a href="https://vuepress-homepage.netlify.com" title="Demo">
+  <a href="https://vuepress-homepage.netlify.com" target="_blank" title="Demo">
     Live Demo
   </a>
 </h2>
@@ -32,7 +32,7 @@ Screenshots:
 | <img src="https://user-images.githubusercontent.com/5097752/39138307-3aba2904-4752-11e8-913a-7c716ca7477b.png"/> | <img src="https://user-images.githubusercontent.com/5097752/39139534-c2fa6494-4754-11e8-9dfb-107a3d530797.png"/> |
 
 <h2>
-  <a href="https://vuepress-homepage.netlify.com/guide/" title="Getting Started">
+  <a href="https://vuepress-homepage.netlify.com/guide/" target="_blank" title="Getting Started">
     Getting Started
   </a>
 </h2>
