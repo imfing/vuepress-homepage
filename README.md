@@ -15,7 +15,11 @@
   <img src="https://img.shields.io/badge/PR-welcome-brightgreen.svg" alt="">
 </p>
 
-## [Online Demo](vuepress-homepage.netlify.com)
+<h2>
+  <a href="https://vuepress-homepage.netlify.com" title="Demo">
+    Live Demo
+  </a>
+</h2>
 
 Screenshots:
 
@@ -27,8 +31,11 @@ Screenshots:
 | :---: | :---: |
 | <img src="https://user-images.githubusercontent.com/5097752/39138307-3aba2904-4752-11e8-913a-7c716ca7477b.png"/> | <img src="https://user-images.githubusercontent.com/5097752/39139534-c2fa6494-4754-11e8-9dfb-107a3d530797.png"/> |
 
-
-## [Getting Started](https://vuepress-homepage.netlify.com/guide/)
+<h2>
+  <a href="https://vuepress-homepage.netlify.com/guide/" title="Getting Started">
+    Getting Started
+  </a>
+</h2>
 
 Check the full documentation here :point_right: [Guide](https://vuepress-homepage.netlify.com/guide/)
 
