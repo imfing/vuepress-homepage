@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://github.com/mtobeiyf/vuepress-homepage" title="Homepage">
-    <img src="https://user-images.githubusercontent.com/5097752/39126631-798faf4a-4735-11e8-993d-6f314d4f2b55.png" width="200px" alt="">
+    <img src="https://user-images.githubusercontent.com/5097752/39163721-4c79012c-47ae-11e8-842b-2af72f69cc2c.jpg" width="300px" alt="">
   </a>
   <br />
   Your Awesome Homepage
@@ -57,6 +57,13 @@ Check your site at `http://127.0.0.1:8080/`
 - Powered by [VuePress](https://vuepress.vuejs.org/) and [Vue.js](https://vuejs.org/)
 
 It's **static**, which means once generated, your site could be deployed anywhere, like [Netlify](https://www.netlify.com/) or [GitHub Pages]()
+
+It's responsive and mobile friendly.
+
+| Main | Projects | Doc | Sidebar |
+| :---: | :---: | :---: | :---: |
+| <img src="https://user-images.githubusercontent.com/5097752/39163461-30a0e754-47ad-11e8-84ff-0c6716d6e937.jpg"/> | <img src="https://user-images.githubusercontent.com/5097752/39163230-2c917634-47ac-11e8-9c08-a87336c0bb02.jpg"/> | <img src="https://user-images.githubusercontent.com/5097752/39163235-32001436-47ac-11e8-8a80-f5aa1d639b82.png"/> | <img src="https://user-images.githubusercontent.com/5097752/39163238-368bfb5a-47ac-11e8-81b9-78a38af16dfe.jpg"/> |
+
 
 ## Credit
 
