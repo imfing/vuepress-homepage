@@ -5,6 +5,7 @@
 
 <script>
 import markdownIt from "markdown-it";
+import emoji from "markdown-it-emoji";
 
 export default {
   props: {
@@ -19,7 +20,7 @@ export default {
   },
 
   mounted() {
-    var md = new markdownIt();
+    var md = new markdownIt().use(emoji);
     var result;
     if (this.inline) {
       result = md.renderInline(this.content);
