@@ -58,11 +58,16 @@ Check your site at `http://127.0.0.1:8080/`
 
 It's **static**, which means once generated, your site could be deployed anywhere, like [Netlify](https://www.netlify.com/) or [GitHub Pages]()
 
-It's responsive and mobile friendly.
+| Simple Editting | Elegant Output |
+| :---: | :---: |
+| <img src="https://user-images.githubusercontent.com/5097752/39165083-42470364-47b5-11e8-8e1b-e225e6cf4161.png"/> | <img src="https://user-images.githubusercontent.com/5097752/39165092-4af03422-47b5-11e8-986e-02bee0fe6979.jpg"/> |
+
+It's **responsive** and **mobile friendly**.
 
 | Main | Projects | Doc | Sidebar |
 | :---: | :---: | :---: | :---: |
 | <img src="https://user-images.githubusercontent.com/5097752/39163461-30a0e754-47ad-11e8-84ff-0c6716d6e937.jpg"/> | <img src="https://user-images.githubusercontent.com/5097752/39163230-2c917634-47ac-11e8-9c08-a87336c0bb02.jpg"/> | <img src="https://user-images.githubusercontent.com/5097752/39163235-32001436-47ac-11e8-8a80-f5aa1d639b82.png"/> | <img src="https://user-images.githubusercontent.com/5097752/39163238-368bfb5a-47ac-11e8-81b9-78a38af16dfe.jpg"/> |
+
 
 
 ## Credit
