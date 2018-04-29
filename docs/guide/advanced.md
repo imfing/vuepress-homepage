@@ -19,6 +19,8 @@ Read [VuePress Guide](https://vuepress.vuejs.org/guide/) and understand how VueP
 
 The components, which are the templates used in this site, are separate `.vue` files under `.vuepress/components` directory.
 
+For example, the `MarkdownCard.vue` is a widget used in the projects page. The `Homepage.vue` is a layout that could be further customized.
+
 For more information, check VuePress doc on [Custom Layout for Specific Pages](https://vuepress.vuejs.org/default-theme-config/#custom-layout-for-specific-pages).
 
 

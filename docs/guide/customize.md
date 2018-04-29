@@ -63,3 +63,23 @@ If you don't like the homepage, simply modify the `docs/README.md` file to switc
 There are two different types of sidebars: routing between multiple Markdown files and TOC of a single page.
 
 This **Guide** contains separate files under `docs/guide`. To enable sidebar, you have to manually set this in the `config.js`.
+
+## Pages
+
+### Homepage
+
+As you can see in the `docs/README.md`, most of the contents are written in the YAML front matter. Just modify the corresponding section and you should get yours.
+
+### Projects
+
+Actually, it's a pure Markdown file. You can use the inline widget `<MarkdownCard>` to show your project, publication or portfolio. Check the example at `docs/projects/README.md`.
+
+You can even add some more sections with Markdown to make this page a resume for you.
+
+### Customize Page
+
+Adding a page is simple, create `docs/Foo/README.md` and you can access it with link `/Foo/` in the context.
+
+To automatically generate the sidebar of the current page, add `sidebar: auto` in the front matter section.
+
+You can even tune the styles with `<style>` tag. Check [here](https://vuepress.vuejs.org/guide/using-vue.html#using-pre-processors) for more information.

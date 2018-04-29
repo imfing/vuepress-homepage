@@ -54,6 +54,8 @@ There are several available free online hosts for you:
 - [GitHub Pages](https://pages.github.com/)
 - [Netlify](https://www.netlify.com/)
 
+For more available instructions, have a look at the [Deploying](https://vuepress.vuejs.org/guide/deploy.html#deploying) section.
+
 ### GitHub Pages
 
 Create a repository, clone it to your local machine. And copy files in `dist` to your local repository folder. 
@@ -62,4 +64,6 @@ Push it to GitHub with [GitHub Desktop](https://pages.github.com/) or command li
 
 ### Netlify
 
-Simply rename and drag and drop your `dist` directory to Netlify, follow the instruction and your site will all set up.
+Simply rename and drag and drop your `dist` directory to Netlify, follow the instruction and your site will all set up. Check the guide [here](https://vuepress.vuejs.org/guide/deploy.html#netlify).
+
+Also, you can create your own repository and copy all the files except `.git` there. Therefore, your build command would be `yarn build` and your public directory be `dist`. Fast and easy.
