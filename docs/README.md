@@ -1,6 +1,5 @@
 ---
 layout: Homepage
-sidebar: false
 description: 'The biography and information about me.'
 avatar: /profile.jpg
 head: 'Harry Potter'
