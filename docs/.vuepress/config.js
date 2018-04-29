@@ -8,7 +8,7 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: "Home", link: "/" },
-      { text: "Projects", link: "/test/" },
+      { text: "Projects", link: "/projects/" },
       { text: "Guide", link: "/guide/" },
       { text: "GitHub", link: "https://github.com/mtobeiyf/vuepress-homepage" }
     ],
