@@ -19,7 +19,10 @@ module.exports = {
 
   markdown: {
     // options for markdown-it-anchor
-    anchor: { permalink: false }
+    anchor: { permalink: false },
+    config: md => {
+      md.use(require("markdown-it-katex"));
+    }
   }
 };
 

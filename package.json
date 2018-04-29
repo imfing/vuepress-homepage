@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "markdown-it": "^8.4.1",
-    "markdown-it-emoji": "^1.4.0"
+    "markdown-it-emoji": "^1.4.0",
+    "markdown-it-katex": "^2.0.3"
   }
 }
