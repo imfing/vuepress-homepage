@@ -5767,9 +5767,9 @@ vuepress-html-webpack-plugin@^3.2.0:
     toposort "^1.0.0"
     util.promisify "1.0.0"
 
-vuepress@^0.10.1:
-  version "0.10.1"
-  resolved "http://registry.npm.taobao.org/vuepress/download/vuepress-0.10.1.tgz#d784bb81f62e4753ee1795d6eeaba8e5d06316c1"
+vuepress@^0.10.2:
+  version "0.10.2"
+  resolved "http://registry.npm.taobao.org/vuepress/download/vuepress-0.10.2.tgz#4f1cd6126619f7a94ab1b08caacdf6d91c52954f"
   dependencies:
     "@babel/core" "7.0.0-beta.47"
     "@vue/babel-preset-app" "3.0.0-beta.11"
