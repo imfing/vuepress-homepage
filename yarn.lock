@@ -4796,9 +4796,9 @@ regexpu-core@^4.1.3, regexpu-core@^4.1.4:
     unicode-match-property-ecmascript "^1.0.4"
     unicode-match-property-value-ecmascript "^1.0.2"
 
-register-service-worker@^1.2.0:
-  version "1.2.0"
-  resolved "http://registry.npm.taobao.org/register-service-worker/download/register-service-worker-1.2.0.tgz#c0472dcc856e391ba7a87c0aa96c4f6cf1aec67c"
+register-service-worker@^1.4.1:
+  version "1.4.1"
+  resolved "http://registry.npm.taobao.org/register-service-worker/download/register-service-worker-1.4.1.tgz#4b4c9b4200fc697942c6ae7d611349587b992b2f"
 
 registry-auth-token@^3.0.1:
   version "3.3.2"
@@ -5755,9 +5755,9 @@ vuepress-html-webpack-plugin@^3.2.0:
     toposort "^1.0.0"
     util.promisify "1.0.0"
 
-vuepress@^0.12.0:
-  version "0.12.0"
-  resolved "http://registry.npm.taobao.org/vuepress/download/vuepress-0.12.0.tgz#1a268c34622fa5869db3883da5e0f9ef8609d5a0"
+vuepress@^0.14.1:
+  version "0.14.1"
+  resolved "http://registry.npm.taobao.org/vuepress/download/vuepress-0.14.1.tgz#4b3fc46601ce2fd8ff2265a2e39098b9f9580c58"
   dependencies:
     "@babel/core" "7.0.0-beta.47"
     "@vue/babel-preset-app" "3.0.0-beta.11"
@@ -5797,7 +5797,7 @@ vuepress@^0.12.0:
     portfinder "^1.0.13"
     postcss-loader "^2.1.5"
     prismjs "^1.13.0"
-    register-service-worker "^1.2.0"
+    register-service-worker "^1.4.1"
     semver "^5.5.0"
     stylus "^0.54.5"
     stylus-loader "^3.0.2"
