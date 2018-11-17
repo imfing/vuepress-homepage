@@ -3667,9 +3667,9 @@ min-document@^2.19.0:
   dependencies:
     dom-walk "^0.1.0"
 
-mini-css-extract-plugin@^0.4.1:
+mini-css-extract-plugin@0.4.1:
   version "0.4.1"
-  resolved "http://registry.npm.taobao.org/mini-css-extract-plugin/download/mini-css-extract-plugin-0.4.1.tgz#d2bcf77bb2596b8e4bd9257e43d3f9164c2e86cb"
+  resolved "https://registry.yarnpkg.com/mini-css-extract-plugin/-/mini-css-extract-plugin-0.4.1.tgz#d2bcf77bb2596b8e4bd9257e43d3f9164c2e86cb"
   dependencies:
     "@webpack-contrib/schema-utils" "^1.0.0-beta.0"
     loader-utils "^1.1.0"
@@ -4796,9 +4796,9 @@ regexpu-core@^4.1.3, regexpu-core@^4.1.4:
     unicode-match-property-ecmascript "^1.0.4"
     unicode-match-property-value-ecmascript "^1.0.2"
 
-register-service-worker@^1.4.1:
-  version "1.4.1"
-  resolved "http://registry.npm.taobao.org/register-service-worker/download/register-service-worker-1.4.1.tgz#4b4c9b4200fc697942c6ae7d611349587b992b2f"
+register-service-worker@^1.5.1:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/register-service-worker/-/register-service-worker-1.5.2.tgz#a4631896c38d6ec5597358f44988cc46a911912d"
 
 registry-auth-token@^3.0.1:
   version "3.3.2"
@@ -5755,9 +5755,9 @@ vuepress-html-webpack-plugin@^3.2.0:
     toposort "^1.0.0"
     util.promisify "1.0.0"
 
-vuepress@^0.14.1:
-  version "0.14.1"
-  resolved "http://registry.npm.taobao.org/vuepress/download/vuepress-0.14.1.tgz#4b3fc46601ce2fd8ff2265a2e39098b9f9580c58"
+vuepress@^0.14.5:
+  version "0.14.5"
+  resolved "https://registry.yarnpkg.com/vuepress/-/vuepress-0.14.5.tgz#06e78a3af1a24d612d7a17bbba811e962d0acda1"
   dependencies:
     "@babel/core" "7.0.0-beta.47"
     "@vue/babel-preset-app" "3.0.0-beta.11"
@@ -5791,13 +5791,13 @@ vuepress@^0.14.1:
     markdown-it-container "^2.0.0"
     markdown-it-emoji "^1.4.0"
     markdown-it-table-of-contents "^0.4.0"
-    mini-css-extract-plugin "^0.4.1"
+    mini-css-extract-plugin "0.4.1"
     nprogress "^0.2.0"
     optimize-css-assets-webpack-plugin "^4.0.0"
     portfinder "^1.0.13"
     postcss-loader "^2.1.5"
     prismjs "^1.13.0"
-    register-service-worker "^1.4.1"
+    register-service-worker "^1.5.1"
     semver "^5.5.0"
     stylus "^0.54.5"
     stylus-loader "^3.0.2"
