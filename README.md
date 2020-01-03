@@ -23,13 +23,13 @@
 
 Screenshots:
 
-| About Me :raising_hand: | Projects/Publications :books: |
+| Home/Resume :newspaper: | Projects/Publications :books: |
 | :---: | :---: |
-| <img src="https://user-images.githubusercontent.com/5097752/39126631-798faf4a-4735-11e8-993d-6f314d4f2b55.png"/> | <img src="https://user-images.githubusercontent.com/5097752/39126639-7d9511f2-4735-11e8-873e-8042a0116893.png"/> |
+| <img src="https://user-images.githubusercontent.com/5097752/71707493-2b2fb280-2db8-11ea-9311-718d9a086592.png"/> | <img src="https://user-images.githubusercontent.com/5097752/71707496-2c60df80-2db8-11ea-9df2-7d50a274ce59.png"/> |
 
-| Documentation :closed_book: | Simple Page :memo: |
+| About Me :raising_hand: | Docs/Articles :closed_book: |
 | :---: | :---: |
-| <img src="https://user-images.githubusercontent.com/5097752/39138307-3aba2904-4752-11e8-913a-7c716ca7477b.png"/> | <img src="https://user-images.githubusercontent.com/5097752/39139534-c2fa6494-4754-11e8-9dfb-107a3d530797.png"/> |
+| <img src="https://user-images.githubusercontent.com/5097752/71707487-28cd5880-2db8-11ea-9807-90345612d1e4.png"/> | <img src="https://user-images.githubusercontent.com/5097752/71707498-2e2aa300-2db8-11ea-83f8-6e73bdd6c4b5.png"/> |
 
 <h2>
   <a href="https://vuepress-homepage.netlify.com/guide/" target="_blank" title="Getting Started">
@@ -85,6 +85,6 @@ It's **responsive** and **mobile friendly**.
 
 ## License
 
-Copyright © 2018, Fing
+Copyright © 2020, Fing
 
 Released under the [MIT License](https://opensource.org/licenses/MIT).

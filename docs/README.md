@@ -81,7 +81,7 @@ Sept 1991 - 1997
 
 <style lang="stylus">
 
-.theme-container.home-page
+.theme-container.home-page .page
   font-size 14px
   font-family "lucida grande", "lucida sans unicode", lucida, "Helvetica Neue", Helvetica, Arial, sans-serif;
   p

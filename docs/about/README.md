@@ -32,7 +32,7 @@ I attended [Hogwarts School of Witchcraft and Wizardry](https://en.wikipedia.org
 
 <style lang="stylus">
 
-.theme-container.about-page
+.theme-container.about-page .page
   background-color #e6ecf0
   min-height calc(100vh)
   
