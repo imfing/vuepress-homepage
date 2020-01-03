@@ -36,4 +36,7 @@ I attended [Hogwarts School of Witchcraft and Wizardry](https://en.wikipedia.org
   background-color #e6ecf0
   min-height calc(100vh)
   
+  .last-updated
+    display none
+
 </style>
