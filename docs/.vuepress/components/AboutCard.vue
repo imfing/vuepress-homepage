@@ -1,60 +1,61 @@
 <template>
-  <div class="home">
-    <div class="wrapper">
-      <div class="avatar">
-        <img :src="$withBase(data.avatar)" alt="">
-      </div>
-      <div class="card">
-        <div class="bio">
-          <div class="head">
-            <span>
-              {{data.head}}
-            </span>
-          </div>
-          <div class="info">
-            <span>
-              {{data.info}}
-            </span>
-          </div>
-          <div class="description">
-            <Content/>
-          </div>
-        </div>
-        <div class="interests">
+  <div class="about-card">
+    <div class="avatar">
+      <img :src="$withBase(data.avatar)" alt="">
+    </div>
+    <div class="card">
+      <div class="bio">
+        <div class="head">
           <span>
-            {{data.interests}}
+            {{data.head}}
           </span>
         </div>
-        <div class="socials">
-          <div v-for="item in data.socials">
-            <a :href="item.link" target="_blank">
-              <img :src="'/icons/'+item.title+'.svg'" :alt="item.title"
-              :title="item.title" />
-            </a>
-          </div>
+        <div class="info">
+          <span>
+            {{data.info}}
+          </span>
         </div>
-        <div class="actions">
-          <div v-for="item in data.actions">
-            <a :href="item.link" class="button"
-                :target="item.link.startsWith('/')?'':'_blank'">
-              {{item.text}}
-            </a>
-          </div>
+        <div class="description">
+          <slot></slot>
         </div>
       </div>
-
-      <div class="footer" v-if="data.footer">
-        {{ data.footer }}
+      <div class="interests">
+        <span>
+          {{data.interests}}
+        </span>
+      </div>
+      <div class="socials">
+        <div v-for="item in data.socials">
+          <a :href="item.link" target="_blank">
+            <img :src="'/icons/'+item.title+'.svg'" :alt="item.title"
+            :title="item.title" />
+          </a>
+        </div>
+      </div>
+      <div class="actions">
+        <div v-for="item in data.actions">
+          <a :href="item.link" class="button"
+              :target="item.link.startsWith('/')?'':'_blank'">
+            {{item.text}}
+          </a>
+        </div>
       </div>
     </div>
+
+    <!-- <div class="footer" v-if="data.footer">
+      {{ data.footer }}
+    </div> -->
   </div>
 </template>
 
+
 <script>
+
 export default {
+  props: ['frontmatter'],
   computed: {
     data() {
-      return this.$page.frontmatter;
+      return this.frontmatter;
     }
   }
 };
@@ -63,24 +64,12 @@ export default {
 <style lang="stylus">
 @import './styles/config.styl'
 
-body
-  .home
-    max-width 100%
-    background-color $homeBgColor
-    min-height calc(100vh - 6rem)
-    display flex
-    padding 2.4rem 2rem 0
-  @media (max-width: $MQMobileNarrow)
-    .home
-      padding-left 0
-      padding-right 0
-      padding 1rem 0.5rem
-.wrapper
+.about-card
   width 100%
   display: flex
   flex-direction column
-  // justify-content: center
   align-items center
+
   .avatar 
     position relative
     z-index 1
@@ -90,6 +79,7 @@ body
       height auto
       max-width 150px
       border-radius 500rem
+
   .card
     max-width: 600px
     width 100%
@@ -120,6 +110,7 @@ body
           -webkit-margin-after 0em
           a
             font-weight normal
+
     .interests
       padding 1em 1.5em
       border-top 1px solid rgba(34,36,38,.1)
@@ -127,7 +118,6 @@ body
       border-top 1px solid rgba(34,36,38,.1)
       display flex
       flex-direction: row
-      // align-items: center
       justify-content: center
       flex-wrap wrap 
       img 
@@ -140,7 +130,6 @@ body
       flex-direction: row
       justify-content: center
       flex-wrap wrap
-      // padding 1em
       .button
         background-color $btnBgColor
         border none
@@ -161,7 +150,6 @@ body
           background-color $btnHvColor
   .footer
       padding 1rem
-      // border-top 1px solid lighten(#bdc3c7, 50%)
       font-weight 200
       font-size 1rem
       text-align center

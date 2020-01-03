@@ -4,7 +4,7 @@ Here are some works of mine :books:
 
 ## Projects
 
-<MarkdownCard image="/projects/1.png">
+<ProjectCard image="/projects/1.png">
 
   Harry P., Hermione G., *et al*
   
@@ -14,11 +14,11 @@ Here are some works of mine :books:
   
   [[PDF](https://www.google.com)] [[arXiv](https://arxiv.org)]
 
-</MarkdownCard>
+</ProjectCard>
 
 ## Publications
 
-<MarkdownCard>
+<ProjectCard>
 
   **Harry Potter and the Deathly Hallows**
   
@@ -26,4 +26,4 @@ Here are some works of mine :books:
 
   [[Link](https://www.google.com)]
 
-</MarkdownCard>
+</ProjectCard>

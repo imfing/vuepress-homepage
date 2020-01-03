@@ -6,8 +6,10 @@ module.exports = {
   dest: "./dist",
 
   themeConfig: {
+    search: false,
     nav: [
       { text: "Home", link: "/" },
+      { text: "About", link: "/about/" },
       { text: "Projects", link: "/projects/" },
       { text: "Guide", link: "/guide/" },
       { text: "GitHub", link: "https://github.com/mtobeiyf/vuepress-homepage" }
@@ -21,7 +23,7 @@ module.exports = {
   markdown: {
     // options for markdown-it-anchor
     anchor: { permalink: false },
-    config: md => {
+    extendMarkdown: md => {
       md.use(require("markdown-it-katex"));
     }
   }

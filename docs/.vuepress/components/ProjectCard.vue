@@ -1,5 +1,5 @@
 <template>
-  <div class="md-card">
+  <div class="md-card" :class="{ 'show-border': !hideBorder}">
     <div v-if="image" class="card-image">
       <img :src="$withBase(image)" alt="">
     </div>
@@ -11,7 +11,7 @@
 
 <script>
 export default {
-  props: ['image']
+  props: ['image', 'hideBorder']
 };
 </script>
 
@@ -20,10 +20,6 @@ export default {
 
 .md-card
   background-color $frontColor
-  border 1px solid #eee
-  border-radius 0.5rem
-  box-shadow 0 5px 15px -5px rgba(0,0,0,.1)
-  padding 0.5rem
   margin-top 1em
   min-height 150px
   display flex
@@ -49,6 +45,12 @@ export default {
       -webkit-margin-after 0.5em
     blockquote 
       font-size 1rem
+
+.md-card.show-border
+  border 1px solid #eee
+  border-radius 0.5rem
+  box-shadow 0 5px 15px -5px rgba(0,0,0,.1)
+  padding 0.5rem
 
 @media (max-width: $MQMobileNarrow)
   .md-card
