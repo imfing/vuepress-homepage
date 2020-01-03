@@ -1,3 +1,7 @@
+---
+pageClass: projects-page
+---
+
 # Work
 
 Here are some works of mine :books:
@@ -27,3 +31,10 @@ Here are some works of mine :books:
   [[Link](https://www.google.com)]
 
 </ProjectCard>
+
+<style lang="stylus">
+
+.projects-page
+  background-color #fafbfc
+
+</style>

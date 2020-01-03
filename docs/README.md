@@ -90,11 +90,11 @@ Sept 1991 - 1997
     line-height normal
   a
     font-weight normal
-  .content:not(.custom) > h2
+  .theme-default-content:not(.custom) > h2
     margin-bottom 0.5rem
-  .content:not(.custom) > h2:first-child + p
+  .theme-default-content:not(.custom) > h2:first-child + p
     margin-top 0.5rem
-  .content:not(.custom) > h3
+  .theme-default-content:not(.custom) > h3
     padding-top 4rem
 
   /* Override */
@@ -105,5 +105,18 @@ Sept 1991 - 1997
       img
         max-width 120px
         max-height 120px
+    .card-content p
+      -webkit-margin-after 0.2em
+
+@media (max-width: 419px)
+  .theme-container.home-page .page
+    p, ul, ol
+      line-height 1.5
+
+    .md-card
+      .card-image
+        img 
+          width 100%
+          max-width 400px
 
 </style>
