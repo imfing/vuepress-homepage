@@ -25,11 +25,11 @@ Screenshots:
 
 | Home/Resume :newspaper: | Projects/Publications :books: |
 | :---: | :---: |
-| <img src="https://user-images.githubusercontent.com/5097752/71707493-2b2fb280-2db8-11ea-9311-718d9a086592.png"/> | <img src="https://user-images.githubusercontent.com/5097752/71707496-2c60df80-2db8-11ea-9df2-7d50a274ce59.png"/> |
+| <img src="https://user-images.githubusercontent.com/5097752/71707796-8b275880-2dba-11ea-8db0-03172722c35d.png"/> | <img src="https://user-images.githubusercontent.com/5097752/71707797-8b275880-2dba-11ea-8239-c51f4bac6542.png"/> |
 
 | About Me :raising_hand: | Docs/Articles :closed_book: |
 | :---: | :---: |
-| <img src="https://user-images.githubusercontent.com/5097752/71707487-28cd5880-2db8-11ea-9807-90345612d1e4.png"/> | <img src="https://user-images.githubusercontent.com/5097752/71707498-2e2aa300-2db8-11ea-83f8-6e73bdd6c4b5.png"/> |
+| <img src="https://user-images.githubusercontent.com/5097752/71707795-8b275880-2dba-11ea-9440-987d542c560c.png"/> | <img src="https://user-images.githubusercontent.com/5097752/71707798-8b275880-2dba-11ea-9777-d9d64ac4ad45.png"/> |
 
 <h2>
   <a href="https://vuepress-homepage.netlify.com/guide/" target="_blank" title="Getting Started">
