@@ -21,6 +21,8 @@
   </a>
 </h2>
 
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/mtobeiyf/vuepress-homepage)
+
 Screenshots:
 
 | Home/Resume :newspaper: | Projects/Publications :books: |
