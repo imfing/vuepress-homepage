@@ -45,14 +45,20 @@ Make sure you have [Node.js](https://nodejs.org) and [yarn](https://yarnpkg.com)
 
 ```bash
 # Clone the repo
-$ git clone https://github.com/mtobeiyf/vuepress-homepage.git
-$ cd vuepress-homepage
+git clone https://github.com/mtobeiyf/vuepress-homepage.git
+cd vuepress-homepage
+
+# Install VuePress
+yarn global add vuepress
+# OR npm install -g vuepress
 
 # Install dependencies
-$ yarn  # or npm install
+yarn
+# OR npm install
 
 # Run
-$ yarn dev  # or npm run dev
+$ yarn dev
+# OR npm run dev
 ```
 
 Check your site at `http://127.0.0.1:8080/`
