@@ -2,68 +2,88 @@
 pageClass: home-page
 # some data for the components
 
-name: Harry Potter
-profile: /profile.jpg
+name: August Sosick
+profile: /pics/profile.jpeg
 
 socials:
   - title: github
     icon: "/icons/github.svg"
-    link: https://github.com/mtobeiyf
+    link: https://github.com/asosick
   - title: linkedin
     icon: "/icons/linkedin-mono.svg"
-    link: https://www.linkedin.com
-  - title: instagram
-    icon: "/icons/instagram-mono.svg"
-    link: https://www.instagram.com
+    link: https://www.linkedin.com/in/asosick/
 
-cv: https://en.wikipedia.org/wiki/Harry_Potter
-bio: Student at Hogwarts School
-email: harry (at) hogwarts (dot) edu
+resume: https://asosickpersonalsitebucket52.s3.ca-central-1.amazonaws.com/August_Sosick_Resume_2022.pdf
+bio: Student at UofC
+
+email: august@sosick.ca
 ---
+[a](google.ca)
+
 
 <ProfileSection :frontmatter="$page.frontmatter" />
 
 ## About Me
 
-I attended [Hogwarts School of Witchcraft and Wizardry](https://en.wikipedia.org/wiki/Hogwarts) to study witchcraft, supervised by **Dumbledore** and other professors. 
+I am attending the [University of Calgary](https://en.wikipedia.org/wiki/Hogwarts) to continue my education in software engineering and business.
 
-I'm trying my best to battle with Lord Voldemort, the evil Wizard that we all fear. My research area includes Defence Against the Dark Arts and other magic. :dizzy:
-
-
-## News
-
-- [Sept 1991] Attended Hogwarts
-- [July 1980] Born in Godric's Hollow, West Country, England, Great Britain
+I have worked professionally as a full stack developer at Morgan Stanley, which involved backened, front-end, and devops work.
 
 
-## Education & Experiences
 
-- **Hogwarts School of Witchcraft and Wizardry** <br/>
-Sept 1991 - 1997
+## Education
 
+- **University of Calgary - Software Engineering** <br/>
+Sept 2017 - Apr 2023
+
+- **University of Calgary - Business** <br/>
+Sept 2018 - Apr 2023
+
+## Work Experience
+
+[→ Full list](/work/)
+
+<ProjectCard image="/pics/MS.jpeg" hideBorder=true>
+
+  **Morgan Stanley**
+
+  May 2021 - August 2022
+
+  Software Engineering Intern at Morgan Staney
+
+</ProjectCard>
+
+<ProjectCard image="/pics/BCI.png" hideBorder=true>
+
+  **BroadCast Controls**
+
+  May 2020 - August 2020
+
+  Software Engineering Intern at Broadcast Controls Inc.
+
+</ProjectCard>
 
 ## Projects
 
 
 [→ Full list](/projects/)
 
-<ProjectCard image="/projects/1.png" hideBorder=true>
+<ProjectCard image="/pics/telus.png" hideBorder=true>
 
-  **The Making of Harry Potter's Wand**
+  **Telus LTE Bandwidth Throttling**
 
-  Harry P., Hermione G., *et al*
+  September 2022 - April 2023
   
-  Harry's wand was broken in 1997, but was repaired by him after the 1998 Battle of Hogwarts. Usually the repair of a wand is impossible, but with the use of the Elder Wand it was achievable.
+  I am currently working with Telus Communications Inc. to develop strategies to throttle LTE video traffic to reduce network load during peak hours
   
-  [[PDF](https://www.google.com)] [[arXiv](https://arxiv.org)]
 
 </ProjectCard>
 
-<ProjectCard hideBorder=true>
+<ProjectCard image="/pics/orrery.GIF" hideBorder=true>
 
-  **Harry Potter and the Deathly Hallows**
+  **Orrery**
   
-  In the epilogue of Deathly Hallows, which is set 19 years after Voldemort's death, Harry and Ginny are a couple and have three children: James Sirius Potter, who has already been at Hogwarts for at least one year, Albus Severus Potter, who is starting his first year there, and Lily Luna Potter, who is two years away from her first year at the school.
+  A small orrery which simulates all major planetary bodies of the solar system, including the moon.
 
   [[Link](https://www.google.com)]
 

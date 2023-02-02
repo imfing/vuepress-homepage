@@ -1,17 +1,17 @@
 module.exports = {
-  title: "Harry Potter",
-  description: "The description of the site.",
+  title: "August Sosick",
+  description: "Personal Site of August Sosick",
   head: [["link", { rel: "icon", href: `/logo.png` }]],
   base: "/",
   dest: "./dist",
 
   themeConfig: {
     search: false,
+    smoothScroll: true,
     nav: [
       { text: "Home", link: "/" },
-      { text: "About", link: "/about/" },
+      { text: "Work", link: "/work/" },
       { text: "Projects", link: "/projects/" },
-      { text: "Guide", link: "/guide/" },
       { text: "GitHub", link: "https://github.com/mtobeiyf/vuepress-homepage" }
     ],
     sidebar: {

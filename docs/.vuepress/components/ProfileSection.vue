@@ -19,7 +19,9 @@
         </div>
       </div>
       <div class="contact">
-        <div class="email" title="Contact me">{{ data.email }}</div>
+        <div class="email" title="Contact me">
+          <a :href="'mailto:'+data.email">{{ data.email }}</a>
+        </div>
       </div>
       <div v-if="data.cv">
         <a target="_blank" :href="data.cv" title="Download my CV in PDF">
